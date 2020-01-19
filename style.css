@@ -1,0 +1,150 @@
+@media (min-width:1030px){
+
+	body{
+		font-family: 'Merriweather', serif;
+		text-align: center;	
+		background-image: url(Imagenes/fondo.jpg);
+		padding: 0px;
+		margin: 0px;
+	}
+
+	#loader{
+		width: 100vw;
+		height: 100vh;
+		background-color: white;
+		position: absolute;
+		z-index: 100;
+	}
+	#loader img{
+		padding-top: 25vh;
+	}
+
+	/* Iconos Facebook e Instagram*/
+	.redesresponsive{
+		display: none;
+	}
+
+	.redes{
+		position: relative;
+	}
+	.redes img{
+		position: absolute;
+		right: 20px;
+		opacity: 0.9;
+		top: 15px;
+	}
+	.redes img.imagen:hover{
+		opacity: 0;
+	}
+
+	.redes1{
+		position: relative;
+	}
+	.redes1 img{
+		position: absolute;
+		right: 20px;
+		top: 80px;
+		opacity: 0.9;
+	}
+	.redes1 img.imagen1:hover{
+		opacity: 0;
+	}
+
+	/*Logo*/
+
+	
+	.logo img{
+		opacity: 0.90;
+		width: 60%;
+		padding-top: 70px;
+	}
+
+	/*Accesos directos a paginas*/
+
+	.menu{
+		text-align: center;
+		padding-top: 20px;	
+		opacity: 0.95;
+
+	}
+	.menuPortada {
+		display: inline-block;
+		padding: 10px 40px 0px 45px;
+		margin: 0px 10px;
+		font-family: 'Allerta Stencil', bold;
+		
+	}
+	.menu h2{
+		font-size: 40px;
+		text-decoration: none;
+		opacity: 0.80;
+	}
+	.menuPortada a{
+		
+		text-decoration: none;
+		font-size: 40px;
+		color: black;	
+		
+	}
+	.menuPortada a:hover{
+		color: white;
+	}
+
+}
+
+@media (max-width:1029px){
+  body{
+		font-family: 'Merriweather', serif;
+		text-align: center;	
+		background-image: url(Imagenes/fondoresponsive.jpg);
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		width: 100%;
+		min-height: 100%;
+		padding: 0;
+		margin: 0;	
+	}
+	#loader{
+		width: 100vw;
+		height: 100vh;
+		background-color: white;
+		position: absolute;
+		z-index: 100;
+	}
+	#loader img{
+		padding-top: 35vh;
+	}
+  
+  .menu a{
+  	text-decoration: none;
+  	color: black;
+  	font-size: 60px;
+  	font-family: 'Merriweather', serif;
+  }
+  .menu h2{
+  	padding-top: 4%;
+  	background-image: url(Imagenes/boton.png);
+  	background-size: 100% 100%;
+  	width: 70%;
+  	height: 150px;
+  	margin: auto;
+  	opacity: 0.85;
+  }
+  .logo img{
+  	width: 100%;
+  	opacity: 0.9;
+  	margin-bottom: 5%;
+  	margin-top: 8%;
+  }
+
+.redes, .redes1{
+  	display: none;
+  }
+  .redesresponsive{
+  	padding-top: 28vh;
+  	padding-bottom: 15vh
+  	}
+  .redesresponsive img{
+  	width: 15%;
+  }
+}
